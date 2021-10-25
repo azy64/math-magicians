@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Myname from './Myname';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <code>src/App.js</code>
           {' '}
           and save to reload.
+          <Myname />
         </p>
         <a
           className="App-link"
