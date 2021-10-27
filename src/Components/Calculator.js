@@ -10,10 +10,10 @@ export default class Calculator extends Component {
   }
 
   addButton =() => {
-    const tab = ['AC', '+/-', '%', 'div', '7', '8', '9', '*', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+    const tab = ['AC', '+/-', '%', '÷', '7', '8', '9', '*', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
     const tmp = [];
     tab.forEach((signe) => {
-      if (signe === '+' || signe === '=' || signe === '-' || signe === 'div' || signe === '*') tmp.push(<Button width="73px" color="#F4924B" text={signe} />);
+      if (signe === '+' || signe === '=' || signe === '-' || signe === '÷' || signe === '*') tmp.push(<Button width="73px" color="#F4924B" text={signe} />);
       else if (signe === '0') tmp.push(<Button width="148px" color="#E0E0E0" text={signe} />);
       else tmp.push(<Button width="73px" color="#E0E0E0" text={signe} />);
     });
