@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import BarDisplay from './BarDisplay';
 import Button from './Button';
+import '../css/Calculator.css';
 
 export default class Calculator extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ export default class Calculator extends Component {
 
   render() {
     return (
-      <div>
+      <div className="calculator">
         <BarDisplay />
         {this.addButton()}
       </div>
