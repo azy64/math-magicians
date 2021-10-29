@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/BarDisplay.css';
+import PropTypes from 'prop-types';
 
 export default class BarDisplay extends React.Component {
   constructor(props) {
@@ -7,13 +8,17 @@ export default class BarDisplay extends React.Component {
     this.state = {};
   }
 
-  render() {
+  render = () => {
+    const { content } = this.props;
     return (
       <div className="bar-display">
         <div className="writting">
-          0000
+          {content}
         </div>
       </div>
     );
   }
 }
+BarDisplay.propTypes = {
+  content: PropTypes.string.isRequired,
+};
