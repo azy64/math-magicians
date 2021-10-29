@@ -11,8 +11,8 @@ class Button extends React.Component {
 
   clickHandler = (e) => {
     const txt = e.target.firstChild.textContent;
-    const { content } = this.props;
-    content(txt);
+    const { content, calculate, setCalculate } = this.props;
+    content(txt, calculate, setCalculate);
   }
 
   parseStringOp = (str) => {
@@ -49,6 +49,9 @@ Button.propTypes = {
   text: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
   content: PropTypes.func.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  calculate: PropTypes.object.isRequired,
+  setCalculate: PropTypes.func.isRequired,
 };
 
 export default Button;
