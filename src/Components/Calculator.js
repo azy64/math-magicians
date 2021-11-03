@@ -30,10 +30,16 @@ const Calculator = () => {
   const { next, total } = compute;
   const tmp = next || total || 0;
   return (
-    <div className="calculator">
-      <BarDisplay content={`${tmp}`} />
-      {addButton(compute, setCompute)}
+    <div className="section-calc">
+      <div>
+        <h1>Let &lsquo Do some math !</h1>
+      </div>
+      <div className="calculator">
+        <BarDisplay content={`${tmp}`} />
+        {addButton(compute, setCompute)}
+      </div>
     </div>
+
   );
 };
 
