@@ -1,5 +1,11 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
 import operate from '../src/logic/operate';
 import calculate from '../src/logic/calculate';
+import Home from '../src/Components/Home';
+import NavBar from '../src/Components/NavBar';
+// import Button from '../src/Components/Button';
+// import Ba from '../src/Components/BarDisplay';
 
 describe('testing operate and calculate function', () => {
   test('testing  for string number', () => {
@@ -27,5 +33,17 @@ describe('testing operate and calculate function', () => {
   test('testing calculate function when doing +/- operation =', () => {
     const ob = { next: '6', operation: '+', total: '5' };
     expect(calculate(ob, '+/-')).toEqual({ next: '-6', operation: '+', total: '5' });
+  });
+  it('renders correctly for Home component', () => {
+    const tree = renderer
+      .create(<Home />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders correctly for Home component', () => {
+    const tree = renderer
+      .create(<NavBar />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });
