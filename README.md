@@ -8,7 +8,7 @@ This is the first project of the Math Magicians application. We will set up the 
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://azy64.github.io/math-magicians)
 
 
 
