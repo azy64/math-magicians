@@ -1,5 +1,427 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`testing operate and calculate function renders correctly Calculator component 1`] = `
+<div
+  className="section-calc"
+>
+  <div>
+    <h1>
+      Let &lsquo Do some math !
+    </h1>
+  </div>
+  <div
+    className="calculator"
+  >
+    <div
+      className="bar-display"
+    >
+      <div
+        className="writting"
+        role="none"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        AC
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        +/-
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        %
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#F4924B",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        ÷
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        7
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        8
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        9
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#F4924B",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        x
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        4
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        5
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        6
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#F4924B",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        -
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        1
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        2
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        3
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#F4924B",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        +
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "148px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        0
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        .
+      </span>
+    </div>
+    <div
+      className="button"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "backgroundColor": "#F4924B",
+          "width": "73px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="text"
+      >
+        =
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing operate and calculate function renders correctly for BarDisplay component 1`] = `
+<div
+  className="bar-display"
+>
+  <div
+    className="writting"
+    role="none"
+  >
+    12
+  </div>
+</div>
+`;
+
+exports[`testing operate and calculate function renders correctly for Button component 1`] = `
+<div
+  className="button"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  role="button"
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "width": "100px",
+    }
+  }
+  tabIndex="0"
+>
+  <span
+    className="text"
+  >
+    1
+  </span>
+</div>
+`;
+
 exports[`testing operate and calculate function renders correctly for Home component 1`] = `
 <div
   style={
@@ -32,6 +454,75 @@ exports[`testing operate and calculate function renders correctly for Home compo
     }
   >
     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+  </p>
+</div>
+`;
+
+exports[`testing operate and calculate function renders correctly for NavBar component 1`] = `
+<div
+  className="navbar"
+>
+  <div
+    className="title"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+  </div>
+  <div
+    className="link"
+  >
+    <ul>
+      <li>
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          href="/calc"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`testing operate and calculate function renders correctly for Quote component 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": 19,
+      "margin": "auto",
+      "marginTop": "5%",
+      "textAlign": "center",
+      "width": "70%",
+    }
+  }
+>
+  <p>
+    Mathematics is about numbers, equations, computations
+    <br />
+    or algorithms: it is about understanding. -William Paul Thurston
   </p>
 </div>
 `;

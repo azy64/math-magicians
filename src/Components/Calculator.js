@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import BarDisplay from './BarDisplay';
 import Button from './Button';
-import '../css/Calculator.css';
 import calculate from '../logic/calculate';
 
 const clickHandler = async (txt, compute, setCompute) => {

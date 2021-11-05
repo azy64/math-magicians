@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/BarDisplay.css';
 import PropTypes from 'prop-types';
 
 export default class BarDisplay extends React.Component {
@@ -12,7 +11,7 @@ export default class BarDisplay extends React.Component {
     const { content } = this.props;
     return (
       <div className="bar-display">
-        <div className="writting">
+        <div className="writting" role="none">
           {content}
         </div>
       </div>

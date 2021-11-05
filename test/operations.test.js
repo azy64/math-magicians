@@ -1,11 +1,15 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { render, screen, fireEvent } from '@testing-library/react';
 import operate from '../src/logic/operate';
 import calculate from '../src/logic/calculate';
 import Home from '../src/Components/Home';
 import NavBar from '../src/Components/NavBar';
-// import Button from '../src/Components/Button';
-// import Ba from '../src/Components/BarDisplay';
+import Button from '../src/Components/Button';
+import BarDisplay from '../src/Components/BarDisplay';
+import Quote from '../src/Components/Quote';
+import Calculator from '../src/Components/Calculator';
 
 describe('testing operate and calculate function', () => {
   test('testing  for string number', () => {
@@ -40,10 +44,50 @@ describe('testing operate and calculate function', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  it('renders correctly for Home component', () => {
+  it('renders correctly for Button component', () => {
     const tree = renderer
-      .create(<NavBar />)
+      .create(<Button
+        width="100px"
+        text="1"
+        color="blue"
+        content={(x) => x}
+        calculate={{ total: null, next: null }}
+        setCalculate={(x) => x}
+      />)
       .toJSON();
     expect(tree).toMatchSnapshot();
+  });
+
+  it('renders correctly for BarDisplay component', () => {
+    const tree = renderer
+      .create(<BarDisplay content="12" />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders correctly for Quote component', () => {
+    const tree = renderer
+      .create(<Quote />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders correctly for NavBar component', () => {
+    const tree = renderer
+      .create(<Router><NavBar /></Router>)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders correctly Calculator component', () => {
+    const tree = renderer.create(<Calculator />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('should return the sum of two number form UI', () => {
+    render(<Calculator />);
+    fireEvent.click(screen.getByText('3'));
+    fireEvent.click(screen.getByText('x'));
+    fireEvent.click(screen.getByText('7'));
+    fireEvent.click(screen.getByText('='));
+    const result = screen.getByRole('none');
+    expect(result.innerHTML).toBe('21');
   });
 });
